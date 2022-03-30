@@ -1,0 +1,21 @@
+{
+  "exp_dir": "model_dir/sg2_face_2",
+  "batch_size": 1,
+  "category": "face",
+  "debug": false,
+  "dim": [256, 256, 4480],
+  "deeplab_res": 256,
+  "number_class": 2,
+  "testing_data_number_class": 2,
+  "max_training": 10,
+  "stylegan_ver": "2",
+  "annotation_data_from_w": false,
+  "annotation_mask_path": "./data/stylegan2/annotation/face_2",
+  "testing_path": "",
+  "annotation_image_latent_path": "./data/stylegan2/annotation/face_2/z_latent_stylegan2.npy",
+  "stylegan_checkpoint": "./checkpoints/stylegan2/ffhq-res256-mirror-paper256-noaug.pkl",
+  "model_num": 10,
+  "q_dim": 4,
+  "upsample_mode":"bilinear"
+}
+  
